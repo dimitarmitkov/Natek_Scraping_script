@@ -1,7 +1,7 @@
 # Natek_Scraping_script
  Natek test task
 
-Entry point is index.js file. You need to type: npm run start, to run the program.
+Entry point is index.js file. You need to type: "npm run start", to run the program.
 
 Runtime environment: Node.js
 
@@ -17,6 +17,8 @@ Node library: Puppeteer
 −	categoryHierarchy.js contains functionality for scraping data from right side bar widget and exports it in file named hierarchy.csv.
   
 −	functions.js contains all global functions used in index.js file.
+
+- csv (directory) contains all csv files holding extracted data.
 
 2.	Main functionalities.
 
