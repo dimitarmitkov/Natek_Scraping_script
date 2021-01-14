@@ -4,8 +4,11 @@
 Entry point is index.js file. You need to type: npm run start, to run the program.
 
 Runtime environment: Node.js
+
 Programming language: JavaScript ES6
+
 Node library: Puppeteer
+
 
 1.	File structure:
 
