@@ -56,10 +56,3 @@ module.exports = {
 }
 
 const productsList = "product type-product";
-
-
-// exports.hrefLinksListGenerator = hrefLinksListGenerator;
-// exports.productsListLength = productsListLength;
-// exports.result = result;
-// exports.logoSizeColorSelector = logoSizeColorSelector;
-// exports.imageStringExtractor = imageStringExtractor;
