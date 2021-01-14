@@ -3,13 +3,10 @@ const puppeteer = require("puppeteer");
 const stringify = require("csv-stringify")
 const path = require("path");
 const fs = require("fs");
-
-let func = require("./functions");
+const func = require("./functions");
 
 async function run() {
-    const browser = await puppeteer.launch({
-        headless: false,
-    });
+    const browser = await puppeteer.launch({headless: false,});
     const page = await browser.newPage();
     await page.goto(siteUrl);
 
@@ -115,10 +112,13 @@ async function run() {
             relatedProductsArray
         ];
 
+        let dirName = "csv";
         let fileName = name.split(" ").join("_");
+
+        fs.promises.mkdir(path.resolve(dirName), { recursive: true }).catch(console.error);
         stringify(resultArray, function(err, output){
             if (err) console.error(err);
-            fs.writeFileSync(path.resolve("csv",`${fileName}.csv`), resultArray,"utf8");
+            fs.writeFileSync(path.resolve(dirName,`${fileName}.csv`), resultArray,"utf8");
         });
     }
 
