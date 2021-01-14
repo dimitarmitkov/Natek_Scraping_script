@@ -9,9 +9,11 @@ Node library: Puppeteer
 
 1.	File structure:
 
-  −	index.js contains main functionality for scraping products data and exports it in csv files named with products names. If product name contains empty spaces they are replaced with “_” symbol.
-  −	categoryHierarchy.js contains functionality for scraping data from right side bar widget and exports it in file named hierarchy.csv.
-  −	functions.js contains all global functions used in index.js file.
+−	index.js contains main functionality for scraping products data and exports it in csv files named with products names. If product name contains empty spaces they are replaced with “_” symbol.
+
+−	categoryHierarchy.js contains functionality for scraping data from right side bar widget and exports it in file named hierarchy.csv.
+  
+−	functions.js contains all global functions used in index.js file.
 
 2.	Main functionalities.
 
