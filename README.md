@@ -18,7 +18,7 @@ Node library: Puppeteer
   
 −	functions.js contains all global functions used in index.js file.
 
-- csv (directory) contains all csv files holding extracted data.
+− csv (directory) contains all csv files holding extracted data.
 
 2.	Main functionalities.
 
